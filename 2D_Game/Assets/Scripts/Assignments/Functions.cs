@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +6,7 @@ public class Functions : MonoBehaviour {
 
 	public string weather;
 
-
+// Call weather function
 	void Start(){
 
 		Weather(weather);
