@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 634962367}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,9 +212,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 634962363}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f79411467a2df294ea203266815fd78f, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c9dbbf0f82bc874883bb058b1920f36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 75
+  legs: 3
+  domesticated: 1
+  tail: 1
+  pointedEars: 0
+  shortHair: 0
+  declawed: 1
+  size: 6.3
+  weight: 400
+  agility: 3.2
+  furColor: orange
+  age: 43
+  banded: 1
 --- !u!1 &1358779987
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +242,7 @@ GameObject:
   - component: {fileID: 1358779988}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -245,7 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9641300f3add343a441fb9d3421592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 5
 --- !u!50 &1358779989
 Rigidbody2D:
   serializedVersion: 4
@@ -344,8 +357,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1358779987}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.38, y: 0.15, z: -0.0029638223}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.38, y: 0.15, z: -0.0029638}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -522,8 +535,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1992108968}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0053212643, y: -0.011698604, z: -0.0234375}
-  m_LocalScale: {x: 20.206902, y: 0.58678204, z: 1}
+  m_LocalPosition: {x: 0.0053212, y: -1.78, z: -0.0234375}
+  m_LocalScale: {x: 152.24664, y: 4.421044, z: 7.534388}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
