@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class Functions : MonoBehaviour {
 
+    // void Start(){
+    //      print(Sum(36,24));
+
+    //      print(Multi(20,5));
+
+
+    // }
+
 // 	public string weather;
 
 // // Call weather function
@@ -34,4 +42,16 @@ public class Functions : MonoBehaviour {
 // 		}
 
 // 	}
+
+    // int Sum(int a, int b){
+    //     return  a + b; 
+    // }
+
+    // int Multi(int c, int d){
+    //     return c * d;
+    // }
+
+    
+
+   
 }
