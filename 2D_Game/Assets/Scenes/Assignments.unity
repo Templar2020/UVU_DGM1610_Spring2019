@@ -435,7 +435,7 @@ MonoBehaviour:
   groundCheckRadius: 0.1
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!50 &1358779989
 Rigidbody2D:
   serializedVersion: 4
@@ -628,7 +628,7 @@ GameObject:
   - component: {fileID: 1992108971}
   - component: {fileID: 1992108970}
   - component: {fileID: 1992108969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
