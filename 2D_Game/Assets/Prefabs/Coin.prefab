@@ -68,7 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03097da52fe59fe408ba731a604b7396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 100
+  coinValue: 50
 --- !u!212 &212685398393082588
 SpriteRenderer:
   m_ObjectHideFlags: 1
